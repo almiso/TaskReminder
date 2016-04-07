@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Theme-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Common-->
+    <color name="st_white">#FFFFFF</color>
+    <color name="st_black">#000000</color>
+
+    <!--UI-->
+    <color name="st_card_background">#F0F0F0</color>
+    <color name="st_divider_light">#ffd9d9d9</color>
+    <color name="st_tasks_list_active">#68EFAD</color>
+
+    <!--Text color -->
+    <color name="st_text_primary">#333333</color>
+    <color name="st_text_secondary">#818086</color>
+
+</resources>

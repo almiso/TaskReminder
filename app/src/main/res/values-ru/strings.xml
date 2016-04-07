@@ -1,0 +1,21 @@
+<resources>
+    <string name="st_app_name">Task Reminder</string>
+    <string name="st_settings">Settings</string>
+    <string name="st_content_description">Pic</string>
+    <string name="st_list_name_hint">Name</string>
+    <string name="st_new_task">New task</string>
+    <string name="st_marked">Marked</string>
+    <string name="st_task_list">Task list</string>
+    <string name="st_no_tasks_list">No tasks list yet</string>
+    <string name="st_delete">Delete</string>
+    <string name="st_ask_delete">Delete list?</string>
+    <string name="st_ok">OK</string>
+    <string name="st_yes">Yes</string>
+    <string name="st_no">No</string>
+    <string name="st_cancel">Cancel</string>
+    <string name="st_priority">A priority</string>
+    <string name="st_turn_on">Turn on</string>
+    <string name="st_turn_off">Turn off</string>
+    <string name="st_done">Done</string>
+
+</resources>

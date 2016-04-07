@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_clickable_layout"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkBoxState"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvTaskValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:text="sadfjha dslfijah sdlif alidbf laijdbf lajbd lijab fliua dliba lkfjna licjsf liajbsf kajbsclviu agclv"
+        android:textColor="@color/st_text_primary"
+        android:textSize="@dimen/st_text_size_xmedium" />
+
+</LinearLayout>
