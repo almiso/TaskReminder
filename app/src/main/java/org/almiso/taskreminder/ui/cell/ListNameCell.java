@@ -114,6 +114,11 @@ public class ListNameCell extends FrameLayout {
         AppCompatDialog dialog = builder.create();
         dialog.show();
 
-//        AndroidUtilities.showKeyboard(editTaskValue);
+        AndroidUtilities.RunOnUIThread(new Runnable() {
+            @Override
+            public void run() {
+                AndroidUtilities.showKeyboard(editTaskValue);
+            }
+        }, 160);
     }
 }

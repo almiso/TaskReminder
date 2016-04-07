@@ -150,6 +150,13 @@ public class TaskCell extends FrameLayout {
         builder.setNegativeButton(R.string.st_cancel, null);
         AppCompatDialog dialog = builder.create();
         dialog.show();
+        
+        AndroidUtilities.RunOnUIThread(new Runnable() {
+            @Override
+            public void run() {
+                AndroidUtilities.showKeyboard(editTaskValue);
+            }
+        }, 160);
     }
 
 }
